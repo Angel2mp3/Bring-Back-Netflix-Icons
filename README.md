@@ -2,7 +2,7 @@
 
 > A powerful userscript that brings back **985 retired Netflix profile icons** across 103 shows and categories — set server-side, so they appear on every device you own.
 
-**Author:** [Angel](https://github.com/Angel2mp3) ❤️ &nbsp;|&nbsp; **Version:** 1.0.0 &nbsp;|&nbsp; **License:** MIT
+**Author:** Angel ❤️ &nbsp;|&nbsp; **Version:** 1.0.0 &nbsp;|&nbsp; **License:** MIT
 
 ---
 
