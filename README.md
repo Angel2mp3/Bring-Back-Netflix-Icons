@@ -16,6 +16,8 @@ Netflix retires profile icons from its selection UI but usually keeps them fully
 
 This script surfaces a browseable gallery of those retired icons and applies them using Netflix's own API.
 
+<img width="1138" height="857" alt="image" src="https://github.com/user-attachments/assets/fe55d724-1c61-4dc3-95ab-8988679a7e1e" />
+
 ---
 
 ## Features
