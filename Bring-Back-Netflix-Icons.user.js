@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bring Back Netflix Icons
 // @namespace    https://www.netflix.com/
-// @version      3.5.0
+// @version      1.1.0
 // @description  Brings back 985 retired Netflix profile icons from 103 shows/categories
 // @author       Angel
 // @match        https://www.netflix.com/*
@@ -10,11 +10,13 @@
 // @license      MIT
 // @homepageURL  https://github.com/Angel2mp3
 // @supportURL   https://github.com/Angel2mp3
+// @updateURL    https://raw.githubusercontent.com/Angel2mp3/Bring-Back-Netflix-Icons/main/Bring-Back-Netflix-Icons.user.js
+// @downloadURL  https://raw.githubusercontent.com/Angel2mp3/Bring-Back-Netflix-Icons/main/Bring-Back-Netflix-Icons.user.js
 // ==/UserScript==
 
 (function () {
   'use strict';
-
+a
   // ═══════════════════════════════════════════════════════════════
   //  ICON DATABASE — Organized by Show/Category
   //  Format: AVATAR|<UUID>|<locale>|<country>|<showId>
