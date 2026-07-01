@@ -1,8 +1,10 @@
 # Bring Back Netflix Icons
 
 > A powerful userscript that brings back **985 retired Netflix profile icons** across 103 shows and categories — set server-side, so they appear on every device you own.
-
-**Author:** Angel ❤️ &nbsp;|&nbsp; **Version:** 1.0.0 &nbsp;|&nbsp; **License:** MIT
+> 
+[![Version](https://img.shields.io/badge/Version-v1.0.0-red?style=flat-square)](https://github.com/Angel2mp3)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fuserscript-install-tracker.vercel.app%2Fapi%2Fbadge%3Frepo%3DBringBackNetflixIcons&style=flat-square&color=black)](https://github.com/Angel2mp3/Bring-Back-Netflix-Icons)
 
 ---
 
