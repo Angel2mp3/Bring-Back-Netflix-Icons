@@ -50,7 +50,7 @@ A Series of Unfortunate Events, Arcane: League of Legends, Asterix & Obelix, Ava
 
 ### 2 — Install the Script
 
-[![Install Script](https://img.shields.io/badge/Install-Bring%20Back%20Netflix%20Icons-E50914?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://raw.githubusercontent.com/Angel2mp3/Bring-Back-Netflix-Icons/main/Bring-Back-Netflix-Icons.user.js)
+[![Install Script](https://img.shields.io/badge/Install-Bring%20Back%20Netflix%20Icons-E50914?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://userscript-install-tracker.vercel.app/install/BringBackNetflixIcons.user.js)
 
 Click the button above — your userscript manager will automatically detect the script and prompt you to install.
 
