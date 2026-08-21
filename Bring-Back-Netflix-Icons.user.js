@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bring Back Netflix Icons
 // @namespace    https://www.netflix.com/
-// @version      3.5.2
-// @description  Brings back 985 retired Netflix profile icons from 103 shows/categories
+// @version      3.5.3
+// @description  Brings back 988 retired Netflix profile icons from 103 shows/categories.
 // @author       Angel
 // @match        https://www.netflix.com/*
 // @grant        none
@@ -117,8 +117,10 @@ const ICON_DATABASE = {
     { name: "Azula", key: "AVATAR|3dde52c0-c6d8-11ee-a079-123dc585507d|en|US|80237957" },
   ],
   "B: The Beginning": [
-    { name: "Lily", key: "AVATAR|44a202f0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
+    { name: "Keith", key: "AVATAR|44992950-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
     { name: "Koku", key: "AVATAR|44a1b4d0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
+    { name: "Lily", key: "AVATAR|44a202f0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
+    { name: "Killer B", key: "AVATAR|44a1dbe0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
   ],
   "Beauty in Black": [
     { name: "Mallory", key: "AVATAR|829971a0-8aa0-11f0-814f-12c90acfaea7|en|US|81760387" },
@@ -1535,9 +1537,11 @@ const ICON_DATABASE = {
     "43eee670-594c-11ed-854c-0e2a6fc5dbcb": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTXzu7xECGCa9z4eCqIeE0swz7mk86sF7IGahya6fYok4wqRGpm2oO_uMKwL6zNYhI37ljISGDe5iF__eGTncUToQxQ-atNbDA.png?r=1bb",
     "43f3bf10-22a4-11ea-b844-129c8429bf40": "https://occ-0-33-37.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABQErRwBrElF8xEZ1EoLPJlSf8pHlIMcADwN8tbwOcHAY-wFBr3ycB_xEW9sot1ZdDkuOmSrhJdfHEw90EJ58knE8mU0495xEfQ.png?r=1b3",
     "4488aa50-65c5-11e8-a8b0-124c25889740": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABcLThzECYhmXx0c8-9zLUdQvdtX7AvTUKYBX6Mg83iZq0GpZE9QIgSp70YkjQB4esa6V692_c_dyfdBtNn_bjbg0Wxx72Yrg_Q.png?r=786",
+    "44992950-69dc-11e8-ad1d-0ad2c4ea918a": "https://occ-0-873-2219.1.nflxso.net/dnm/api/v6/SO2HoVCx33X8phZh2pZZmQ4QgNY/AAAABWm0HfkwK1VeYx4T5iL1l7U7GkRRj4hXtfIO05kqutKUNd0zfyYenFDVU1mrUEG8meI1Fm_-G9ZE74DRkU5R3fLSGCbFIl7b2A.png?r=538",
     "449b47f0-65c5-11e8-a8b0-124c25889740": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTZRurZAqT06RkLUTg7yHFcO3Ml6_L-vc9i9_zWha6NQB8JGEVNtKH72errUx631auoPgglOh2rjvasq3OyF-Pg74MqltZJ8eQ.png?r=bee",
     "449b47f1-65c5-11e8-a8b0-124c25889740": "https://occ-0-3933-116.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABYxmHU8mzhmxYcuaooyBTd9_1bzbEzPgpsvxAp5MlIzb2k-0tE22s9o1Dk3OWvallz7xBT0Wt0RVJlp97jXtOFgQozL0cqmTog.png?r=6f4",
     "44a1b4d0-69dc-11e8-ad1d-0ad2c4ea918a": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABaW_1LZsrYTZqkTa25S1xoDyrsgZD5z1fxBoO-hsx60QwbNrYUhvwgmLShmMFiXwh78vR5r7az4FgAxJl_RTMlEhSDweiBGpCA.png?r=b10",
+    "44a1dbe0-69dc-11e8-ad1d-0ad2c4ea918a": "https://occ-0-873-2219.1.nflxso.net/dnm/api/v6/SO2HoVCx33X8phZh2pZZmQ4QgNY/AAAABarM00cpcokOq_2EDMd3V3p_nnwBuG5VIdnNmARlmUE8vSfOfPnB8xmJVVDm2V05cwa7QvIBaTh57qF8UPWuJ7ixBAlegoZkFQ.png?r=0f6",
     "44a202f0-69dc-11e8-ad1d-0ad2c4ea918a": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABZeeLxK9V_aHQDo67uyRcQoLvGSjWX8jt5_T4s8XvIzIO_XHNAsxDbY4fYLDWUndak3Jwe2UhpUG-p5q5ScaqhCGGK_8qgUSvQ.png?r=83a",
     "47643e81-be5d-11eb-8229-12fc825888a7": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABXSWC-WSgMbh31QQ5nFkWqtYSCwBUgiNeGZg2mPRbs1UOsA4yCTLMulOrVMi7Unex5TNqTSWZumuKAqTrTUhsvNux0Rwsju2MQ.png?r=6d9",
     "47ef0730-6e14-11ea-b451-0a9e15a005bb": "https://occ-0-8782-2219.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABdCZUX7_tErKD4uyGD508zOVBRTZ19hskU37oPMQCtlVqS-yvUnA3IyaVyRs22QD-8_CQNTNdK0IK6-s4vwE_rBB6cGnaz9PVg.png?r=c95",
