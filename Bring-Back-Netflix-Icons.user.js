@@ -10,8 +10,8 @@
 // @license      MIT
 // @homepageURL  https://github.com/Angel2mp3
 // @supportURL   https://github.com/Angel2mp3
-// @downloadURL https://update.greasyfork.org/scripts/568836/Bring%20Back%20Netflix%20Icons.user.js
-// @updateURL https://update.greasyfork.org/scripts/568836/Bring%20Back%20Netflix%20Icons.meta.js
+// @updateURL    https://raw.githubusercontent.com/Angel2mp3/Bring-Back-Netflix-Icons/main/Bring-Back-Netflix-Icons.user.js
+// @downloadURL  https://raw.githubusercontent.com/Angel2mp3/Bring-Back-Netflix-Icons/main/Bring-Back-Netflix-Icons.user.js
 // ==/UserScript==
 
 (function () {
