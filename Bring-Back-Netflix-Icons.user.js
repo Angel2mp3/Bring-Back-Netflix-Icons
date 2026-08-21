@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bring Back Netflix Icons
 // @namespace    https://www.netflix.com/
-// @version      3.5.2
-// @description  Brings back 985 retired Netflix profile icons from 103 shows/categories
+// @version      3.5.3
+// @description  Brings back 988 retired Netflix profile icons from 103 shows/categories.
 // @author       Angel
 // @match        https://www.netflix.com/*
 // @grant        none
