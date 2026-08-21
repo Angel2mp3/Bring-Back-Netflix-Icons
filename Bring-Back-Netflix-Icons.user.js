@@ -117,8 +117,10 @@ const ICON_DATABASE = {
     { name: "Azula", key: "AVATAR|3dde52c0-c6d8-11ee-a079-123dc585507d|en|US|80237957" },
   ],
   "B: The Beginning": [
-    { name: "Lily", key: "AVATAR|44a202f0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
+    { name: "Keith", key: "AVATAR|44992950-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
     { name: "Koku", key: "AVATAR|44a1b4d0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
+    { name: "Lily", key: "AVATAR|44a202f0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
+    { name: "Killer B", key: "AVATAR|44a1dbe0-69dc-11e8-ad1d-0ad2c4ea918a|en|US|80097594" },
   ],
   "Beauty in Black": [
     { name: "Mallory", key: "AVATAR|829971a0-8aa0-11f0-814f-12c90acfaea7|en|US|81760387" },
